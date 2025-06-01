@@ -1,74 +1,115 @@
 %%%%%%%%%%%%%
 
-{\centering\LARGE\textbf{فهرست نمادها}\par}%
+{\centering\LARGE\textbf{فهرست نمادها (اختصارات و علامت‌ها)}\par}%
 
 \pagenumbering{alph}
 \setcounter{page}{\thesavepage}
-%\setcounter{page}{6}
 \vspace*{1cm}
 
 \pagestyle{style3}
-%\thispagestyle{empty}
-%\addcontentsline{toc}{chapter}{فهرست نمادها}
-\symb{\text{ نماد}}{مفهوم}
-\\
-%مقادیر بالا را تغییر ندهید
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\symb{\mathbb{R}^n}{
-فضای اقلیدسی با بعد $n$
-}
-\symb{\mathbb{S}^n}{
-کره یکه $n$ بعدی
-}
-\symb{M^m}{
-خمینه $m$-بعدی $M$
-}
-\symb{\mathfrak{X}(M)}{
-جبر میدان‌های  برداری هموار روی $M$
-}
-\symb{\mathfrak{X}^1(M)}{
-مجموعه میدان‌های برداری هموار یکه روی $(M,g)$ 
-}
-\symb{\Omega^p(M)}{
-مجموعه $p$-فرمی‌های روی خمینه $M$
-}
-\symb{Q}{
-اپراتور ریچی
-}
-\symb{\mathcal{R}}{
-تانسور انحنای ریمان
-}
-\symb{ric}{
-تانسور ریچی
-}
-\symb{L}{
-مشتق لی
-}
-\symb{\Phi}{
-2-فرم اساسی خمینه تماسی
-}
-\symb{\nabla}{
-التصاق لوی-چویتای
-}
-\symb{\Delta}{
-لاپلاسین ناهموار
-}
-\symb{\nabla^*}{
-عملگر خودالحاق صوری القا شده از التصاق لوی-چویتای
-}
-\symb{g_s}{
-متر ساساکی
-}
-\symb{\nabla}{
-التصاق لوی-چویتای وابسته به متر ساساکی
-}
-\symb{\Delta}{
-عملگر لاپلاس-بلترامی روی $p$-فرم‌ها
-}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{longtable}{|p{4cm}|p{6cm}|p{6cm}|}
+\hline
+\textbf{نماد / اختصار} & \textbf{عبارت کامل انگلیسی} & \textbf{شرح فارسی} \\
+\hline
+\textbf{\lr{ADC}} & \lr{Analog-to-Digital Converter} & مبدل آنالوگ به دیجیتال؛ برای تبدیل سیگنال فرکانس میانی (\lr{IF}) به داده‌های دیجیتال جهت پردازش \\
+\hline
+\textbf{\lr{B}} & \lr{Bandwidth} (چیپ) & پهنای باند چیپ؛ تعیین‌کننده تفکیک‌پذیری فاصله‌ای و برد آشکار \\
+\hline
+\textbf{\lr{BR}} & \lr{Breathing Rate} & نرخ تنفس؛ تعداد تنفس در دقیقه که برای جداسازی سیگنال تنفس از ضربان قلب کاربرد دارد \\
+\hline
+\textbf{\lr{CE}} & \lr{Conformité Européenne} & علامت استاندارد اتحادیه اروپا؛ نشان‌دهنده انطباق تجهیزات پزشکی با مقررات اروپایی (\lr{MDR}) \\
+\hline
+\textbf{\lr{c}} & \lr{Speed of Light} & سرعت نور؛ $\approx 3\times10^{8}\,\mathrm{m/s}$؛ در محاسبه فاصله و تفکیک‌پذیری به‌کار می‌رود \\
+\hline
+\textbf{\lr{DC}} & \lr{Direct Current} & جریان مستقیم؛ مؤلفه ثابت در سیگنال رادار که باید با کالیبراسیون حذف شود \\
+\hline
+\textbf{\lr{ECG}} & \lr{Electrocardiogram} & الکتروکاردیوگرام؛ روش مرجع برای اندازه‌گیری ضربان قلب سنتی \\
+\hline
+\textbf{\lr{EMC}} & \lr{Electromagnetic Compatibility} & سازگاری الکترومغناطیسی؛ استانداردی برای اطمینان از عدم ایجاد تداخل با تجهیزات پزشکی دیگر \\
+\hline
+\textbf{\lr{EPA}} & \lr{Environmental Protection Agency} & سازمان حفاظت محیط زیست آمریکا؛ توصیه‌های زیستی و محدودیت‌های تابش (\lr{RF}) برای ایمنی عمومی \\
+\hline
+\textbf{\lr{FDA}} & \lr{Food and Drug Administration} & سازمان غذا و داروی آمریکا؛ چارچوب قانونی ورود تجهیزات پزشکی به بازار ایالات متحده \\
+\hline
+\textbf{\lr{FCC}} & \lr{Federal Communications Commission} & کمیسیون ارتباطات فدرال آمریکا؛ تنظیم‌کننده مقررات (\lr{RF}) و محدودیت‌های توان خروجی در ایالات متحده \\
+\hline
+\textbf{\lr{fb}} & \lr{Beat Frequency} & فرکانس بیت؛ اختلاف فرکانس بین سیگنال بازتابی و ارسال‌شده برای تعیین فاصله از هدف \\
+\hline
+\textbf{\lr{FDA}} & \lr{Food and Drug Administration} & سازمان غذا و داروی آمریکا؛ چارچوب قانونی ورود تجهیزات پزشکی به بازار ایالات متحده \\
+\hline
+\textbf{\lr{FMCW}} & \lr{Frequency Modulated Continuous Wave} & موج پیوسته مدوله‌شده فرکانسی؛ نوع راداری برای اندازه‌گیری ضربان قلب با دقت بالا \\
+\hline
+\textbf{\lr{FFT}} & \lr{Fast Fourier Transform} & تبدیل فوریه سریع؛ الگوریتم پایه برای استخراج فرکانس ضربان از سیگنال رادار \\
+\hline
+\textbf{\lr{HPE}} & \lr{Heartbeat Prominence Energy} & انرژی برجستگی ضربان قلب؛ جزئی از تابع هزینه برای تفکیک مدهای مرتبط با ضربان در \lr{VMD} \\
+\hline
+\textbf{\lr{HR}} & \lr{Heart Rate} & نرخ ضربان قلب؛ تعداد ضربان در دقیقه که باید از سیگنال رادار تخمین زده شود \\
+\hline
+\textbf{\lr{HRV}} & \lr{Heart Rate Variability} & تغییرپذیری ضربان قلب؛ معیاری برای تحلیل جزئی‌تر نحوه تغییرات ضربان در طول زمان \\
+\hline
+\(\boldsymbol{I[n],\,Q[n]}\) & \lr{In-phase \& Quadrature Components} & مؤلفه‌های هم‌فاز (I) و ۹۰ درجه‌فاز (Q)؛ برای محاسبه فاز آنی \(\phi[n]=\mathrm{atan2}(Q[n],I[n])\) استفاده می‌شود \\
+\hline
+\textbf{\lr{IBI}} & \lr{Inter-Beat Interval} & فاصله بین ضربان‌ها؛ فواصل زمانی بین دو سیکل متوالی ضربان که برای محاسبه \lr{HRV} به کار می‌رود \\
+\hline
+\textbf{\lr{IEC}} & \lr{International Electrotechnical Commission} & کمیسیون بین‌المللی الکترروتکنیک؛ مرجع استانداردهای ایمنی تجهیزات پزشکی (مانند \lr{IEC} 60601-1) \\
+\hline
+\textbf{\lr{IF}} & \lr{Intermediate Frequency} & فرکانس میانی؛ مرحله میانی در زنجیره پردازش راداری قبل از تبدیل به دیجیتال \\
+\hline
+\textbf{\lr{ICNIRP}} & \lr{International Commission on Non-Ionizing Radiation Protection} & کمیسیون بین‌المللی حفاظت در برابر تشعشعات غیر یونساز؛ راهنمای مجاز شدت تابش برای دستگاه‌های پزشکی \\
+\hline
+\textbf{\lr{ISO}} & \lr{International Organization for Standardization} & سازمان بین‌المللی استانداردسازی؛ مرجع استانداردهای مدیریت کیفیت و ایمنی (مانند \lr{ISO} 13485، \lr{ISO} 14971) \\
+\hline
+\textbf{\lr{LLoss}} & \lr{Leakage Loss} & تلفات نشتی؛ جزئی از تابع هزینه در \lr{VMD} که به جلوگیری از همپوشانی مدها کمک می‌کند \\
+\hline
+\textbf{\lr{MIMO}} & \lr{Multiple Input Multiple Output} & چندورودی–چخرجی؛ معماری آنتن برای جداسازی چندشخصه و تعیین زاویه ورود سیگنال \\
+\hline
+\textbf{\lr{N}} & \lr{Number of Samples per Chirp} & تعداد نمونه‌ها در هر چرخه چیپ؛ یک چیپ شامل \(N\) نمونه است \\
+\hline
+\textbf{\lr{PME}} & \lr{Performance Metric for VMD} & معیار عملکرد در حالت \lr{VMD}؛ ترکیبی از \lr{HPE}، \lr{IMI} و \lr{LLoss} \\
+\hline
+\textbf{\lr{R}} & \lr{Distance} & فاصله؛ عاملی در محاسبه فرکانس بیت \(\displaystyle f_b = \frac{2B\,R}{c\,T_p}\) \\
+\hline
+\textbf{\lr{Rmax}} & \lr{Maximum Detection Range} & حداکثر برد آشکار؛ برابر \(\displaystyle \frac{c\,N}{4\,B}\) که بیشینه فاصله قابل تشخیص را نشان می‌دهد \\
+\hline
+\textbf{\lr{RF}} & \lr{Radio Frequency} & فرکانس رادیویی؛ برد وسیع امواج راداری مورداستفاده \\
+\hline
+\textbf{\lr{RMSE}} & \lr{Root Mean Square Error} & خطای میانگین مربعات ریشه؛ معیار دقت کلی سیستم در تخمین پارامترهای ضربان یا \lr{HRV} \\
+\hline
+\textbf{\lr{RMSSD}} & \lr{Root Mean Square of Successive Differences} & ریشه میانگین مربعات تفاضل‌های متوالی؛ معیاری از تغییرپذیری ضربان قلب (\lr{HRV}) \\
+\hline
+\textbf{\lr{SAR}} & \lr{Specific Absorption Rate} & نرخ جذب ویژه؛ معیاری برای ارزیابی میزان جذب امواج (\lr{RF}) توسط بافت بدن؛ باید کمتر از مقدار مجاز باشد \\
+\hline
+\textbf{\lr{SCG}} & \lr{Seismocardiogram} & سیگموکاردیوگرام؛ سیگنال درون‌فردی ناشی از ارتعاشات مکانیکی قلب که می‌تواند در کنار داده‌های راداری تحلیل شود \\
+\hline
+\textbf{\lr{SDNN}} & \lr{Standard Deviation of NN Intervals} & انحراف معیار فاصله‌های \lr{NN}؛ معیاری از \lr{HRV} \\
+\hline
+\textbf{\lr{SPI/I2C}} & \lr{Serial Peripheral Interface / Inter-Integrated Circuit} & رابط‌های دیجیتال؛ برای پیکربندی چیپ‌ست رادار و تنظیم پارامترهای مدولاسیون \\
+\hline
+\textbf{\lr{STFT}} & \lr{Short-Time Fourier Transform} & تبدیل فوریه کوتاه‌مدت؛ روش تحلیل زمان–فرکانس برای دنبال کردن تغییرات ضربان و تنفس در حوزه فرکانس \\
+\hline
+\textbf{\lr{Tc}} & \lr{Chirp Time (Chirp Period)} & مدت زمان چیپ (\lr{Chirp Period})؛ پارامتری کلیدی در محاسبه تفکیک‌پذیری و برد \\
+\hline
+\textbf{\lr{TDM}} & \lr{Time Division Multiplexing} & چندپخشی تقسیم زمانی؛ روش جداسازی کانال‌های آنتن در معماری \lr{MIMO} جهت جلوگیری از تداخل متقابل \\
+\hline
+\textbf{\lr{Tp}} & \lr{Chirp Duration} & مدت زمان چرخه (\lr{Tp})؛ عاملی در محاسبه فرکانس بیت \(\displaystyle f_b = \frac{2B\,R}{c\,T_p}\) \\
+\hline
+\textbf{\lr{UWB}} & \lr{Ultra Wideband} & طیف فوق‌وسیع؛ اشاره به باند فرکانسی بالا (\(\approx30\text{–}300\) گیگاهرتز) برای دقت بیشتر تفکیک هدف‌های نزدیک \\
+\hline
+\textbf{\lr{USB}} & \lr{Universal Serial Bus} & رابط سریال \lr{USB}؛ برای انتقال داده‌های دیجیتال از رادار به کامپیوتر یا پردازشگر جانبی \\
+\hline
+\textbf{\lr{v}} & \lr{Velocity} & سرعت نسبی هدف نسبت به رادار؛ در رابطه \(\displaystyle f_d = \frac{2v}{\lambda}\) برای اندازه‌گیری سرعت کاربرد دارد \\
+\hline
+\(\boldsymbol{\phi[n]}\) & \lr{Instantaneous Phase} & فاز آنی نمونه \(n\)؛ از استخراج فاز برای دنبال کردن حرکات جابه‌جایی دیواره قفسه سینه و ضربان قلب استفاده می‌شود \\
+\hline
+\(\boldsymbol{x[n]}\) & \lr{Signal Sample} & نمونه سیگنال دریافتی در زمان \(n\)؛ برای محاسبه انرژی سیگنال و شناسایی نویز یا حرکت استفاده می‌شود \\
+\hline
+\(\boldsymbol{\lambda}\) & \lr{Wavelength} & طول موج؛ \(\lambda = \tfrac{c}{f_c}\)؛ بر حساسیت فاز و عمق نفوذ تأثیر می‌گذارد \\
+\hline
+\(\boldsymbol{\Delta R}\) & \lr{Range Resolution} & تفکیک‌پذیری فاصله؛ برابر \(\displaystyle \frac{c}{2B}\)، نشان‌دهنده حداقل تغییر فاصله قابل تشخیص \\
+\hline
+\(\boldsymbol{\Delta \phi[n]}\) & \lr{Phase Difference} & اختلاف فاز؛ \(\Delta \phi[n] = \phi[n+1] - \phi[n-1]\)، برای استخراج سرعت تغییرات فاز و تشخیص ضربان قلب کاربرد دارد \\
+\hline
+\end{longtable}
 
-\thispagestyle{style3}
 \newpage
-%\pagestyle{style1}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
