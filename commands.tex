@@ -63,8 +63,11 @@
 \newcommand{\listofformulas}{\listof{equations}{\listequationsname}}
 % فرمان کمکی برای افزودن یک سطر در فهرست فرمول‌ها
 \newcommand{\addequation}[1]{%
-  \addcontentsline{equ}{equations}{\protect\numberline{\theequation}#1}%
+  % طول فاصله را می‌توانید به دلخواه عوض کنید:
+  \addcontentsline{equ}{equations}%
+{\protect\numberline{\theequation}\hspace{0.8em}#1}%
 }
+
 
 
 % ============================
