@@ -1,0 +1,17 @@
+% This file defines how to create a List of Equations
+% Make sure to include this in your main .tex file's preamble
+
+\usepackage{tocloft} % Required for creating custom lists of figures/tables/equations
+\newlistof{myequations}{loe}{\lr{فهرست فرمول‌ها}} % Define a new list type for equations
+
+% Command to add an equation to the list of equations
+% Usage: \addtoequationlist{Short description of the formula}
+\newcommand{\addtoequationlist}[1]{%
+    \addcontentsline{loe}{myequations}{\protect\numberline{\theequation}#1}%
+}
+
+% Command to print the list of equations
+\newcommand{\printlistofequations}{%
+    \clearpage % Start on a new page
+    \listofmyequations% % Print the list
+}
